@@ -1,0 +1,5 @@
+Credit Card Type	Credit Card Number
+JCB	                3566002020360505
+MasterCard		5555555555554444
+MasterCard		5105105105105100
+Visa	        	4111111111111111

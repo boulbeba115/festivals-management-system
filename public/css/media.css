@@ -1,0 +1,1314 @@
+/*------------- MEDIA QUERIES  ----------------*/
+
+@media screen and (min-width: 1681px) {
+     /* Artists */
+    .artist_grid figure {
+        width: 26%;
+    }
+    .artist-section .container-fluid {
+        min-height: auto;
+    }
+    .normal-scroll .artist_grid figure {
+        width: 450px;
+        max-height: none;
+    }
+    .container {
+        width: 1600px;
+    }
+}
+@media screen and (min-width: 1680px) and (max-width: 1681px) {
+    .container {
+        width: 1400px;
+    }
+    .normal-scroll .artist_grid figure {
+        max-height: none;
+        width: 400px;
+    }
+}
+@media screen and (min-width: 1680px) {
+    /* general */
+    
+    body {
+        font-size: 18px;
+    }
+    .top-bar__headline {
+        padding-bottom: 50px;
+    }
+    /*Home */
+    
+    .home_title {
+        top: 25%;
+    }
+    /* Artist lineup */
+    
+    .artist_grid figure {
+        max-height: 360px;
+    }
+    .artist_grid figure {
+        width: 463px;
+    }
+    /* Timeline */
+    
+    .timeline-section.animated .column .square-wrap {
+        width: 250px;
+    }
+    .profile-wrap {
+        width: 1300px;
+    }
+    .square-wrap {
+        width: 250px;
+    }
+    .column .time-wrap {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+    .column .time-wrap h5 {
+        font-size: 26px;
+    }
+    /* Sponsors */
+    
+    .sponsor-section .sponsor-wrap > a {
+        height: 270px;
+    }
+    .normal-scroll .sponsor-section .sponsor-wrap > a {
+        height: 200px;
+    }
+    .profile-wrap .wrap-container .column {
+        margin-bottom: 80px;
+    }
+    .timeline-section.animated .column .square-wrap {
+        margin-top: 100px;
+    }
+    /* Ticket */
+    
+    .ticket {
+        margin-top: 80px;
+    }
+    .ticket-wrapper .ticket-title {
+        font-size: 3em;
+    }
+    .reserve-button,.book-button {
+        font-size: 2rem;
+    }
+    .reserve-button,.book-button {
+        width: 100px;
+        height: 50px;
+        line-height: 50px;
+    }
+    .ticket-switcher .cd-switch {
+        left: 5px;
+        height: 50px;
+    }
+    .ticket-switcher .cd-switch {
+        height: 50px;
+        width: 105px;
+    }
+    .ticket-wrapper .ticket-currency {
+        font-size: 0.85em;
+    }
+    .ticket-wrapper .ticket-action {
+        font-size: 1.2em;
+    }
+    .ticket-item {
+        flex: 0 1 380px;
+    }
+    .ticket-wrapper .ticket-feature-details,
+    .ticket-wrapper .ticket-details {
+        font-size: 1em;
+    }
+    /* Gallery */
+    
+    .filterOptions-links {
+        font-size: 22px;
+    }
+    #galleryHolder div.item img {
+        height: 323px;
+    }
+    .hi-icon {
+        margin: 0px 15px 0px 0px;
+        width: 15px;
+        height: 15px;
+    }
+    /* Ask us */
+    
+    .askus_content_bar .title .askus_questions {
+        font-size: 24px;
+    }
+    .askus_content_bar .askusbar {
+        height: 350px;
+    }
+    .askus_question {
+        padding: 35px;
+        width: 100px;
+        height: 100px;
+        font-size: 35px;
+        border-radius: 50%;
+    }
+    .askus_content_bar .askus_answer {
+        font-size: 35px;
+    }
+    /*-- Contact --*/
+    
+    .contact-right textarea {
+        height: 160px;
+    }
+    .contact-right input[type="text"] {
+        height: 60px;
+    }
+    .contact .submit {
+        margin-top: 130px;
+        text-align: center;
+    }
+    .contact-info-wrapper {
+        margin-bottom: 120px;
+    }
+    /*-- Reach --*/
+    
+    .reach-us-info-container {
+        margin-top: 450px;
+    }
+    .map-box .inner {
+        padding: 30px;
+    }
+    .map-box {
+        width: 360px;
+    }
+    /*-- Footer --*/
+    
+    .footer-text .top-head {
+        font-size: 40px;
+    }
+    .footer-text {
+        margin-top: 100px;
+        margin-bottom: 0px;
+    }
+    .footer-box .inner span:nth-child(2) {
+        padding-top: 40px;
+    }
+}
+@media screen and (min-width: 1200px) and (max-width: 1679px) {
+    /* Timeline */
+    
+    .profile-wrap .wrap-container:nth-child(2) {
+        margin-top: 30px;
+    }
+    .profile-wrap .wrap-container .column.final-row {
+        margin-bottom: 0px;
+    }
+    /* Sponsors */
+    
+    #sponsors_details {
+        height: auto;
+        overflow: hidden;
+        width: 80%;
+        margin: auto;
+    }
+    .sponsor-section .sponsor-wrap > a {
+        position: relative;
+        overflow: hidden;
+        float: left;
+        height: 200px;
+        width: 200px;
+    }
+}
+@media screen and (max-width: 1200px) {
+    .equalizer {
+        display: none;
+    }
+    .container {
+        padding-bottom: 25px;
+    }
+    .container-fluid {
+        padding-bottom: 25px;
+    }
+    #fullpage section,
+    #fullpage .fp-section,
+    #fullpage .fp-slide:not(.artist-slide),
+    .fp-table:not(.artist-slide) .fp-tableCell {
+        height: auto !important;
+    }
+    .artist-image {
+        top: 0;
+        bottom: 0;
+    }
+    .artist-section .top-bar {
+        background: transparent;
+    }
+    .m-artists-container .container {
+        padding-top: 0;
+    }
+    .artist-section .top-bar {
+        height: inherit;
+        position: initial;
+    }
+    #artist_head {
+        margin-bottom: 0;
+    }
+    .vertical-center {
+        min-height: auto;
+        min-height: auto;
+        height: auto;
+    }
+    .home-section .container-fluid {
+        position: static;
+       height: 100%;
+      height: 100vh;
+ 
+    }
+    .top-bar {
+        padding: 25px 0px 40px;
+        position: relative;
+    }
+    .askus-section .container-fluid {
+        height: 100%;
+        position: relative;
+    }
+    #sponsors_details {
+        padding-top: 0;
+    }
+    .gallery {
+        padding-top: 0;
+    }
+    .ticket-container {
+        padding-top: 0;
+    }
+    .ticket-wrapper .ticket-item{
+        -webkit-flex: 0 1 280px;
+        flex: 0 1 280px;
+        margin: 1em;
+    }
+    .contact-content {
+        padding: 0;
+    }
+    .contact-section .container {
+        padding-top: 0;
+    }
+    .askus-section .askus_content_bar {
+        padding-top: 0;
+    }
+    /* Menu */
+    
+    .bt-menu-trigger span {
+        width: 60%;
+    }
+    /* Artist lineup */
+    
+    .artist_grid figure h2 {
+        display: none;
+    }
+    .artist-name {} .artist_grid figure figcaption > a span {
+        display: block;
+    }
+    .artist-more {
+        font-size: 12px;
+        color: rgba(255, 255, 255, 0.85);
+    }
+    .artist_grid figure {
+        padding: 0;
+        margin: 10px;
+    }
+    .artist_grid figure figcaption > a {
+        opacity: 1;
+        width: 100%;
+        height: 55px;
+        padding: 15px;
+        background-color: rgba(4, 4, 4, 0.45);
+        bottom: 14px;
+        position: absolute;
+        bottom: 0;
+        top: auto;
+        font-size: 16px;
+        margin: auto;
+        left: 0;
+        right: 0;
+        color: rgb(255, 255, 255);
+        text-indent: 0px;
+        text-decoration: none;
+        text-transform: none;
+    }
+    figure.effect-artist p {
+        display: none;
+    }
+    figure.effect-artist:hover {
+        background: rgb(222, 129, 114);
+    }
+    figure.effect-artist:hover img {
+        -webkit-filter: grayscale(0%);
+        filter: grayscale(0%);
+        opacity: 1;
+    }
+    .artist_grid figure img {
+        cursor: auto;
+    }
+    section,
+    .gallery-section .fp-tableCell,
+    .askus-section .fp-tableCell {
+        height: auto !important;
+    }
+    .artist_grid figure figcaption > a {
+        /* pointer-events: none;*/
+    }
+    /* Gallery */
+    
+    .gallery-section.active #galleryHolder {
+        opacity: 1;
+    }
+    /*  Sponsors */
+    
+    .sponsor_text img {
+        width: 80px;
+    }
+    .sponsor-section .sponsor-wrap > a::before {
+        width: 95%;
+        height: 60%;
+    }
+    /* ASk US */
+    
+    .noScroll {
+        overflow: auto;
+    }
+    #askus .container-fluid.noScroll .wraper {
+        position: inherit;
+        overflow: hidden;
+    }
+    /* Contact */
+    
+    .contact-right input[type="text"],
+    .contact-right textarea {
+        border: solid #900200 1px;
+    }
+}
+@media screen and (min-width: 1200px) {
+    .artist_desc.active .artistbar .artist-bar {
+        width: 100%;
+        clear: both;
+        -webkit-animation-name: loadArtist, afterLoad;
+        -moz-animation-name: loadArtist, afterLoad;
+        animation-name: loadArtist, afterLoad;
+        /* -webkit-animation-name: loadArtist ;
+    -moz-animation-name: loadArtist ;
+    animation-name: loadArtist ;*/
+        
+        -webkit-animation-fill-mode: forwards;
+        -moz-animation-fill-mode: forwards;
+        animation-fill-mode: forwards;
+        -webkit-animation-timing-function: linear;
+        -moz-animation-timing-function: linear;
+        animation-timing-function: linear;
+        -webkit-animation-iteration-count: 1;
+        -moz-animation-iteration-count: 1;
+        animation-iteration-count: 1;
+        -webkit-animation-delay: 0s, 1.1s;
+        -moz-animation-delay: 0s, 1.1s;
+        animation-delay: 0s, .8s;
+    }
+    /* Reach Us */
+    
+    .map-box {
+        margin-left: 65px;
+        margin-right: 65px;
+    }
+    /* Contact*/
+    /* IE only */
+    
+    _:-ms-lang(x),
+    .contact-section .container-fluid {
+        overflow: hidden
+    }
+    /* Our timeline*/
+    
+    .timeline-section .column .square-wrap,
+    .timeline-section .column .square-wrap {
+        opacity: 0;
+        transform: translate(0px, 10px);
+    }
+    .timeline-section.active .column .time-wrap,
+    .timeline-section.animated .column .time-wrap {
+        -webkit-animation: fadeInUp 1s ease-in both 0ms;
+        -moz-animation: fadeInUp 1s ease-in both 0ms;
+        -o-animation: fadeInUp 1s ease-in both 0ms;
+        animation: fadeInUp 1s ease-in both 0ms;
+        position: static;
+    }
+    section.section.active .section-bottom h1,
+    section.section.animated .section-bottom h1 {
+        -webkit-animation: fadeInUp 1s ease-in both 1500ms;
+        -moz-animation: fadeInUp 1s ease-in both 1500ms;
+        -o-animation: fadeInUp 1s ease-in both 1500ms;
+        animation: fadeInUp 1s ease-in both 1500ms;
+    }
+    /* Artist Lineup */
+    
+    .artist_grid figure {
+        transform: rotateY(10deg) translate(10px, 0px);
+        -webkit-transition: .5s transform .6s;
+        -moz-transition: .5s transform .6s;
+        -o-transition: .5s transform .6s;
+        transition: .3s transform 0s;
+    }
+    .artist_grid {
+        opacity: 0;
+    }
+    /*  Sponsors */
+    
+    .sponsor-section .col-md-3 {
+        opacity: 0;
+    }
+    /* Gallery */
+    
+    .gallery-section #galleryHolder div.item img,
+    .gallery-section #galleryHolder .item a:before {
+        transform: scale(.5);
+        opacity: 0;
+    }
+    /* ask us */
+    
+    .askus-section .askus_content_bar {
+        opacity: 0;
+        left: -10%;
+        -webkit-transition: left .3s .3s, opacity .3s .1s;
+        -moz-transition: left .3s .3s, opacity .3s .1s;
+        -o-transition: left .3s .3s, opacity .3s .1s;
+        transition: left .3s .3s, opacity .3s .1s;
+    }
+    /* tickets  */
+    
+    .ticket-section .ticket-wrapper .is-visible {
+        opacity: 0;
+        transform: rotateY(60deg);
+    }
+    /* social */
+    
+    .socail-section #twitter-container {
+        opacity: 0;
+    }
+    .socail-section.animated #twitter-container {
+        -webkit-animation: fadeInUp 1s ease-in both 0ms;
+        -moz-animation: fadeInUp 1s ease-in both 0ms;
+        -o-animation: fadeInUp 1s ease-in both 0ms;
+        animation: fadeInUp .3s ease-in both 0ms;
+    }
+    /* Contact */
+    
+    .contact-section .contact {
+        opacity: 0;
+        -webkit-transition: .5s opacity 0s;
+        -moz-transition: .5s opacity 0s;
+        -o-transition: .5s opacity 0s;
+        transition: .5s opacity 0s;
+    }
+    /* reach */
+    
+  .map-box .inner span {
+        transform: translate(0px, 5px);
+        opacity: 0;
+    }
+}
+@media screen and (max-width: 992px) {
+    /* Tickets */
+    
+    .ticket-wrapper .ticket-item.booking-wrapper {
+        width: 100%;
+    }
+    .booking-text {
+        width: 100%;
+        margin: 0;
+    }
+    /* Contact */
+    
+    .contact-right textarea {
+        width: 100%;
+        margin-top: 30px;
+    }
+    .contact-right input[type="text"] {
+        width: 100%;
+        margin-top: 30px;
+    }
+    .contact .submit {
+        margin-top: 40px;
+        margin-bottom: 40px;
+    }
+    .contact {
+        position: relative;
+        -webkit-transform: translateY(0%);
+        -moz-transform: translateY(0%);
+        -ms-transform: translateY(0%);
+        -o-transform: translateY(0%);
+        transform: translateY(0%);
+    }
+    .lable input[type="text"] {
+        margin: 18px 0px;
+    }
+    /* Footer */
+    .footer-box {
+    display: inline-block;
+    height: 100px;
+    margin-left: 20px;
+    margin-right: 20px;
+    }
+    .askus_content_bar .askusbar {
+    height: 200px;
+    }
+    /* Menu 2 */
+    
+    #normal-menu > ul {
+        display: none;
+    }
+    #normal-menu > ul.open {
+        display: block;
+        border-top: 1px solid rgba(0, 0, 0, 0.1);
+    }
+    #normal-menu.align-right > ul {
+        float: none;
+    }
+    #normal-menu.align-center > ul {
+        text-align: left;
+    }
+    #normal-menu > ul > li,
+    #normal-menu.align-right > ul > li {
+        float: none;
+        display: block;
+    }
+    #normal-menu > ul > li > a {
+        padding: 18px 25px 18px 25px;
+        border-right: 0;
+    }
+    #normal-menu > ul > li:hover > a,
+    #normal-menu > ul > li.active > a {
+        background: rgba(0, 0, 0, 0.1);
+    }
+    #normal-menu #menu-button {
+        display: block;
+        text-decoration: none;
+        font-size: 13px;
+        font-weight: 700;
+        color: #d3eced;
+        padding: 18px 25px 18px 25px;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        cursor: pointer;
+    }
+    #normal-menu ul li:hover > ul,
+    #normal-menu ul li:active > ul,
+    #normal-menu ul ul li:hover > ul,
+    #normal-menu.align-right ul li:hover > ul,
+    #normal-menu.align-right ul li:active > ul,
+    #normal-menu.align-right ul ul li:hover > ul #normal-menu.align-right ul ul li:active > ul {
+        left: 0;
+        right: auto;
+        top: auto;
+        opacity: 1;
+        width: 100%;
+        padding: 0;
+        position: relative;
+        text-align: left;
+    }
+    .normal-scroll .credits-social,
+    .page-logo {
+        display: none;
+    }
+    #normal-menu.align-right > ul > li > ul {
+        width: 100%;
+    }
+    .home-page .container {
+        width: 100%;
+    }
+    #normal-menu ul ul li {
+        width: 100%;
+    }
+    #normal-menu ul ul li a {
+        width: 100%;
+        box-shadow: none;
+        padding-left: 35px;
+    }
+    #normal-menu ul ul ul li a {
+        padding-left: 45px;
+    }
+    #normal-menu ul ul li:first-child > a,
+    #normal-menu ul ul li:last-child > a {
+        border-radius: 0;
+    }
+    #normal-menu #menu-button::after {
+        display: block;
+        content: '';
+        position: absolute;
+        height: 3px;
+        width: 22px;
+        border-top: 2px solid #d3eced;
+        border-bottom: 2px solid #d3eced;
+        right: 25px;
+        top: 18px;
+    }
+    #normal-menu #menu-button::before {
+        display: block;
+        content: '';
+        position: absolute;
+        height: 3px;
+        width: 22px;
+        border-top: 2px solid #d3eced;
+        right: 25px;
+        top: 28px;
+    }
+    #normal-menu > ul > li.has-sub > a::after,
+    #normal-menu ul ul li.has-sub > a::after {
+        display: none;
+    }
+}
+@media screen and (min-width: 960px) and (max-width: 1199px) {
+    /* Home */
+    
+    .title_content {
+        font-size: 2.5em;
+    }
+    /* Our timeline */
+    
+    #column-four .time-wrap {
+        position: relative;
+        top: 0px;
+    }
+    .column .time-wrap h5 {
+        font-size: 1em;
+    }
+    .section-bottom {
+        top: -25%;
+    }
+    .section-bottom .first-line {
+        font-size: 5em;
+    }
+    .top-bar h2.top-bar__headline {
+        padding: 0 90px;
+    }
+    /* Artist lineup */
+    
+    .artist-section #artist_all_container {
+        min-height: 100vh;
+    }
+    .artist_grid figure figcaption {
+        padding: 0;
+    }
+    .artist_grid figure figcaption {
+        font-size: 1em;
+    }
+    .artist_grid figure h2 {
+        font-size: 9px;
+        font-size: .6em;
+        font-size: 1vw;
+    }
+    /* Sponsors  */
+    
+    .sponsor_text span {
+        width: 115px;
+        height: 50px;
+    }
+    .sponsor-section .sponsor-wrap {
+        width: 650px;
+    }
+    .sponsor-section .sponsor-wrap > a {
+        position: relative;
+        overflow: hidden;
+        float: left;
+        width: 144px;
+        height: 144px;
+        margin: 8px;
+    }
+    .sponsor_text span {
+        background-size: 350px 350px;
+    }
+    /* Ask us */
+    
+    .askus-section {
+        min-height: 100vh;
+    }
+}
+@media screen and (max-width: 1199px) {
+    #fp-nav {
+        display: none;
+    }
+    .timeline-section.active .column .square-wrap {
+        margin: auto;
+    }
+}
+@media screen and (max-width: 1025px) {
+    #askus-answers #askus-answers-inner {
+        max-width: 720px;
+    }
+}
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+    _:-ms-lang(x),
+    .contact-section .container-fluid {
+        /* IE only */
+        
+        overflow: hidden
+    }
+    .contact-right input[type="text"] {
+        background-size: 100%;
+    }
+    .contact-right textarea {
+        margin-top: 5em;
+        background-size: 100%;
+    }
+    .contact .submit input[type="submit"] {
+        padding: 8px 1.3em;
+        font-size: 14px;
+    }
+}
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+    .top-bar h2.top-bar__headline {
+        font-size: 2.5em;
+        padding: 0 20%;
+    }
+    .top-bar {
+        padding: 25px 0px 20px;
+    }
+}
+@media screen and (min-width: 768px) and (max-width: 959px) {
+   /* .ticket-item {
+        -webkit-flex: 0 1 360px;
+        flex: 0 1 360px;
+    }*/
+    .ticket-wrapper .ticket-item {
+    -webkit-flex: 0 1 280px;
+    flex: 0 1 280px;
+         margin : 1em;
+    margin-left: 3em;
+    margin-right: 3em;
+   
+    }
+    /* Home */
+    
+    .title_content {
+        font-size: 2em;
+    }
+    /* Our timeline */
+    
+    _:-ms-lang(x),
+    .timeline-section .vertical-center {
+        height: auto;
+    }
+    .column .time-wrap ul {
+        font-size: 18px;
+    }
+    .column .time-wrap ul li {
+        display: inline-block;
+    }
+    /* artist */
+    
+    .artist_grid figure figcaption {
+        padding: 0px;
+    }
+    figure.effect-artist p {
+        font-size: 10px;
+        margin: 2em;
+        width: 100%;
+    }
+    .artist_grid figure figcaption {
+        font-size: 16px;
+    }
+    .artist_grid figure h2 {
+        font-size: 9px;
+    }
+    /* Sponsors */
+    
+    .sponsor-section .sponsor-wrap > a {
+        position: relative;
+        overflow: hidden;
+        float: left;
+        width: 156px;
+        height: 156px;
+        margin: 10px;
+    }
+    .sponsor-section .sponsor-wrap {
+        width: 714px;
+    }
+    .sponsor_text span {
+        background-size: 200px 200px;
+    }
+    .sponsor_text span {
+        width: 80px;
+        height: 44px;
+        background-size: 250px 250px;
+    }
+    /* Ask us */
+    
+    .askus-section {
+        min-height: 100vh;
+    }
+    .askus_content_bar .title {
+        margin-right: 10%;
+        margin-left: 10%;
+    }
+}
+@media screen and (max-width: 768px) {
+            .artist_desc .artistbar .artist-bar {
+   transform: none;
+                
+     
+}
+    .artist_desc .artistbar:nth-of-type(2) .artist-bar{
+        display: none;
+    }
+    #music-wrapper{
+        display: none;
+    }
+    .audiojs .scrubber{
+        display: none;
+    }
+    .audiojs {
+    width: auto;
+    }
+    #disclaimer-container {
+        width: 85%;
+    }
+    /* Home */
+    
+    .title_content {
+        font-size: 1em;
+    }
+    .section-bottom {
+        display: none;
+    }
+    /* Artist lineup */
+    
+    .content {
+        padding: 0 10px;
+        text-align: center;
+    }
+    figure.effect-artist p {
+        font-size: 11px;
+    }
+    .artist_grid figure {
+        display: inline-block;
+        float: none;
+    }
+    .artist_grid figure figcaption {
+        font-size: 16px;
+    }
+    .artist_grid figure h2 {
+        font-size: 10px;
+    }
+    .artist-section .vertical-center {
+        height: auto;
+    }
+    /* Ticket */
+    
+    .ticket-wrapper .ticket-amount {
+        padding: .5em 0;
+    }
+    /* Reach us */
+    
+    .map-box {
+        display: block;
+        margin-bottom: 40px;
+    }
+}
+@media screen and (min-width: 767px) {
+    .artist-section .vertical-center {
+        /* display: inline-block;*/
+    }
+}
+@media screen and (min-width: 480px) and (max-width: 767px) {
+    /* Common */
+    
+    .top-bar__headline {
+        margin: 0 auto;
+        font-size: 5em;
+        font-weight: 300;
+        padding-top: 20px;
+        letter-spacing: 5px;
+    }
+    .top-bar {
+        padding: 25px 0px 20px;
+    }
+    .top-bar h2.top-bar__headline {
+        font-size: 2em;
+        padding: 0 0%;
+    }
+    /*  Our timeline*/
+    
+    .column .time-wrap ul {
+        display: block;
+        font-size: 16px;
+    }
+    .column .time-wrap h5 {
+        font-size: 1.3em;
+    }
+    /* Gallery */
+    
+    ul#filterOptions {
+        height: 55px;
+    }
+    /* Ask us */
+    
+    .askus-section {
+        min-height: 100vh;
+    }
+    .askus_question {
+        width: 40px;
+        height: 40px;
+        font-size: 15px;
+        padding: 5px;
+    }
+    .askus_question_background {
+        width: 35px;
+        height: 35px
+    }
+    .askus_content_bar .title {
+ 
+        margin-right: 10%;
+        margin-left: 10%;
+        padding-right: 5px;
+    }
+    .askus_content_bar .title .askus_questions {
+        font-size: 9.6px;
+        font-size: .6em;
+        font-size: 12px;
+        line-height: 1.5em;
+    }
+    .askus_question .fa {
+        position: relative;
+        top: 50%;
+        -moz-transform: translateY(-50%);
+        -ms-transform: translateY(-50%);
+        -o-transform: translateY(-50%);
+        transform: translateY(-50%);
+    }
+    .askus_content_bar .askus_answer {
+        font-size: 15px;
+    }
+    .control .title {
+        font-size: 15px;
+    }
+    .cd-close {
+        width: 30px;
+        height: 30px;
+    }
+    .cd-close::before,
+    .cd-close::after {
+        height: 2px;
+        width: 17px;
+    }
+}
+@media screen and (max-width: 767px) {
+    #disclaimer-container h1 {
+        font-size: 18px;
+    }
+    .home-logo {
+        width: 200px;
+    }
+    /* Artist lineup */
+    
+    .artist-slide-next,
+    .artist-slide-prev {
+        display: none;
+    }
+
+    /*.artist_desc .artistbar {
+        height: 0%;
+    }
+ */
+    
+    .artist-slide-name {
+        top: auto;
+        bottom: 18%;
+        padding: 2% 2%;
+        height: auto;
+        width: 100%;
+        text-align: center;
+    }
+    .artist-slide-details {
+        top: auto;
+        bottom: 10%;
+        background: white;
+        padding: 0 2%;
+        height: 3.5em;
+        width: 100%;
+        text-align: center;
+        color: #000;
+    }
+    .artist-slide-name h1 {
+        font-size: 1.5em;
+    }
+    .active.artist-slide div div div {
+        display: inline;
+    }
+    /*  Sponsors */
+    
+    .sponsor-section .sponsor-wrap > a::before {
+        width: 95%;
+        height: 80%;
+    }
+    #sponsors_details {
+        margin-bottom: 50px;
+    }
+    .sponsor-section .sponsor-wrap > a {
+        position: relative;
+        overflow: hidden;
+        float: none;
+        margin: auto;
+        display: block;
+        width: 90%;
+        height: 114px;
+    }
+    .sponsor-section .sponsor-wrap {
+        width: 230px;
+        margin: auto;
+    }
+    .sponsor_text img {
+        width: 60px;
+        position: relative;
+        top: 50%;
+        -ms-transform: translateY(-50%);
+        -webkit-transform: translateY(-50%);
+        -moz-transform: translateY(-50%);
+        -o-transform: translateY(-50%);
+        transform: translateY(-50%);
+    }
+    /* Gallery */
+    
+    #galleryHolder div.item {
+        width: 100%;
+    }
+    ul#filterOptions {
+        width: 100%;
+        margin: auto;
+        overflow: hidden;
+    }
+    ul#filterOptions li {
+        height: 40px;
+        margin-right: 0px;
+        margin-left: 0px;
+        display: inline-block;
+    }
+    ul#filterOptions li a {
+        height: 40px;
+        padding: 10px 20px;
+    }
+    /* Ticket */
+    
+    .ticket-wrapper .ticket-item[data-type="booking"] {
+        padding: 2em 0em;
+    }
+    /* Ask us */
+    
+    #askus-answers h3 {
+        font-size: 20px;
+        margin: 20px auto;
+    }
+    .askus-show-answer {
+        font-size: 14px;
+    }
+    .askus-show-answer {
+        margin-top: 20px;
+    }
+    .askus-question-icon {
+        top: 20px;
+        left: 20px;
+        height: 40px;
+        width: 40px;
+        border-radius: 80px;
+        font-size: 18px;
+        padding-top: 10px;
+    }
+    .askus-controls {
+        width: 80px;
+    }
+    .askus-controls-inner {
+        height: 240px;
+    }
+    a.askus-prev-button,
+    a.askus-next-button {
+        height: 80px;
+        width: 40px;
+        padding-top: 30px;
+        font-size: 18px;
+    }
+    a.askus-next-button {
+        top: 160px;
+    }
+    .askus-close-button {
+        top: 80px;
+        height: 80px;
+        padding-top: 10px;
+        width: 70px;
+    }
+    /* ticket */
+    
+    .ticket-wrapper .ticket-amount {
+        font-size: 2em;
+    }
+    #artist_back {
+        right: 20px;
+        width: 50px;
+        left: auto;
+    }
+    .title_content2 span {
+        background: #061323;
+    }
+    .artist-title {
+        font-size: 2.5em;
+    }
+    .title_content2 {
+        top: 40%;
+    }
+    .artist-slide-social {
+        top: 70%;
+    }
+    .askus_content_bar .askusbar {
+        height: 160px;
+    }
+    /* Footer */
+    .footer-box {
+    display: block;
+    }
+}
+@media screen and (min-device-width: 480px) and (max-device-width: 767px) and (orientation: landscape) {
+    /* Artist lineup */
+    
+    .artist_grid figure {
+        display: inline-block;
+        width: 90%;
+    }
+    .artist-slide-name {
+        bottom: 35%;
+    }
+    .artist-slide-social{
+        display: none;
+    }
+    .pp_nav,
+    .pp_social {
+        opacity: 0;
+    }
+}
+@media screen and (max-width: 480px) {
+    /* Common */
+    
+    h3,
+    .h3 {
+        font-size: 18px;
+    }
+    .top-bar {
+        padding: 25px 0px 20px;
+    }
+    .top-bar h2.top-bar__headline {
+        font-size: 1.3em;
+        padding: 0 0%;
+        margin: 0 auto;
+        font-weight: 300;
+        padding-top: 20px;
+        letter-spacing: 5px;
+    }
+    /* Our timeline */
+    
+    .column .time-wrap h5 {
+        font-size: 1em;
+    }
+    .column .time-wrap ul {
+        display: block;
+        font-size: 13px;
+    }
+    /* Artist lineup */
+    
+    .artist_grid figure,.normal-scroll .artist_grid figure {
+        display: inline-block;
+        width: 80%;
+       
+    }
+    
+    .artist_desc.active .artistbar {
+ 
+   /* position: absolute; */
+}
+    .artist_desc .artistbar .artist-bar {
+   transform: none;
+     
+}
+    .artist_desc .artistbar:nth-of-type(2) .artist-bar{
+        display: none;
+    }
+    /*Ticket */
+    
+    .form-head {
+        font-size: 1em;
+    }
+    /*Contact */
+    
+    .contact p {
+        font-size: 15px;
+    }
+}
+@media screen and (max-width: 400px) {
+    .pp_nav,
+    .pp_social {
+        opacity: 0;
+    }
+}
+@media screen and (min-width: 401px) and (max-width: 767px) {
+    .container {
+        width: 350px;
+    }
+}
+@media screen and (min-width: 320px) and (max-width: 479px) {
+    /* Ticket */
+    
+    .lable input[type="text"] {
+        width: 83%;
+    }
+    .lable-2 input[type="text"],
+    input[type="Password"] {
+        width: 84%;
+    }
+    /* Ask us */
+    
+    .askus-section {
+        min-height: 100vh;
+    }
+    .askus_question_background {
+        width: 30px;
+        height: 30px;
+    }
+    .askus_question {
+        padding: 0px;
+        height: 40px;
+        font-size: 15px;
+        line-height: 40px;
+    }
+    .askus_content_bar .title   {
+        margin-right: 11%;
+        margin-left: 11%;
+        padding-right: 5px;
+    }
+    .askus_content_bar .title .askus_questions  {
+        font-size: 9.6px;
+        font-size: .6em;
+        font-size: 2.9vw;
+        line-height: 1.5em;
+         
+    }
+    .askus_content_bar .askus_answer {
+        font-size: 15px;
+        line-height: 100px;
+    }
+    .control .title {
+        font-size: 18px;
+    }
+    .cd-close {
+        width: 30px;
+        height: 30px;
+    }
+    .cd-close::before,
+    .cd-close::after {
+        height: 2px;
+        width: 20px;
+    }
+    ul#filterOptions {
+        width: auto;
+        display: table;
+    }
+    ul#filterOptions li {
+        display: block;
+        text-align: left;
+    }
+    .gallery-section #galleryHolder {
+        padding-top: 20px;
+    }
+}
